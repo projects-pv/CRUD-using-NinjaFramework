@@ -1,0 +1,13 @@
+etc\LoggedInUserExtractor.class
+models\User.class
+controllers\UserController.class
+dao\UserDao.class
+etc\FilePathHelper.class
+etc\ServeFileHelper.class
+controllers\ApplicationController.class
+conf\Routes.class
+models\BaseDomain.class
+etc\LoggedInUser.class
+filters\LoggerFilter.class
+dao\IBaseDao.class
+etc\Validator.class

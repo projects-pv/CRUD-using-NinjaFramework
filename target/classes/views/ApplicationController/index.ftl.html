@@ -1,0 +1,9 @@
+<#import "../layout/defaultLayout.ftl.html" as layout>
+<@layout.myLayout "${i18n('app.name')} ${i18n('header.home')}">
+	<div class="jumbotron">
+		<h2>${i18n('app.name')} ${i18n('app.defination')}</h2>
+	</div>
+	<div class="col-md-6 col-md-offset-4">
+		<a href="/user/new" class="btn btn-info">${i18n('user.title')}</a> <a href="/user" class="btn btn-default">${i18n('user.list')}</a>
+	</div>
+</@layout.myLayout>
